@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emit Exercises Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+<body>
+    <!-- nav un with 5 li -->
+<nav><ul>
+<li><a href="">Home</a></li>
+<li><a href="">Catalog</a></li>
+<li><a href="">Subscribe</a></li>
+<li><a href="">Contact Us</a></li>
+<li><a href="">About Us</a></li>
+</ul></nav>
+<main>
+<!-- Form with five options-->
+<form  method="get">
+    <input autofocus  type="text" name="fname" id="fname" placeholder="Enter First Name" title="First Name"><br>
+    <input type="text" name="mname" id="mname" placeholder="Enter Middle Name" title="Middle Name"><br>
+    <input type="text" name="lname" id="lname" placeholder="Enter Last Name" title="Last Name"><br>
+    <input type="text" name="address1" id="address1"  placeholder="Enter Address" title="Address"><br>
+    <input type="text" name="address2" id="address2" placeholder="Enter City,State,Zip" title="City,State,Zip"><br>
+    <button type="submit">Submit Form</button>
+</form>
+<br>
+<p class="touch">You have touch</p>
+<p class="no-touch">You DO NOT have touch</p>
+<br>
+<!-- div class center, image id dog1, image id dog 2 -->
+<div class="center">
+    <img style = 'max-width : 300px' src="https://images.pexels.com/photos/39317/chihuahua-dog-puppy-cute-39317.jpeg" alt="Dog in cup" id="dog1"/>
+    <img style = 'max-width : 300px' src="https://images.pexels.com/photos/39317/chihuahua-dog-puppy-cute-39317.jpeg" alt="Another Dog in a cup" id="dog2"/>
+</div>
+</main>
+<!-- form action /process.php and id process, with text box -->
+<form action="process.php" method="get" id="process">
+        <input autofocus type="text" name="q" style="width:400px" placeholder="Enter a Query" title="Enter Query">
+</form>
+<!-- form#process[action=/process2.php]>input.q[name=q] -->
+
+</body>
+</html>
